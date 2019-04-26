@@ -1687,9 +1687,9 @@ body {
   color: #232323;
 }
 .cid-rnKtc4LM9L {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #55b4d4;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url("../../../assets/images/dsc02054-r1-2000x1074.jpg");
 }
 .cid-rnKtc4LM9L .mbr-section-subtitle {
   color: #767676;
@@ -1764,4 +1764,10 @@ body {
     width: 100% !important;
     margin-left: 0 !important;
   }
+}
+.cid-rnKtc4LM9L .mbr-section-title B {
+  color: #cc2952;
+}
+.cid-rnKtc4LM9L .head-item {
+  color: #0b9521;
 }
