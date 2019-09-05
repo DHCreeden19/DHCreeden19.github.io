@@ -683,6 +683,7 @@ a:hover {
   right: 0;
   top: 0;
   z-index: 0;
+  pointer-events: none;
 }
 blockquote {
   font-style: italic;
@@ -1173,7 +1174,7 @@ pre {
     display: none;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 1023px) {
   .navbar-toggleable-md .navbar-nav .dropdown-menu {
     position: static;
     float: none;
@@ -1183,7 +1184,7 @@ pre {
     padding-left: 0;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .navbar-toggleable-md {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1381,6 +1382,37 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #149dcc;
+  color: #ffffff;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:after,
+.jq-number__spin.plus:after {
+  transition: 0.4s;
+  border-top-color: currentColor;
+  border-bottom-color: currentColor;
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:hover:after,
+.jq-number__spin.plus:hover:after {
+  border-top-color: #149dcc;
+  border-bottom-color: #149dcc;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  color: #ffffff !important;
+  background-color: #149dcc !important;
+  box-shadow: none!important;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  color: #ffffff !important;
+  background: #ff3366 !important;
+  box-shadow: none !important;
+}
 .cid-r7rIEJzLIi {
   background-image: url("../../../assets/images/goode1-2-2000x1274.jpg");
 }
@@ -1533,6 +1565,47 @@ body {
 }
 .cid-rdLocVV1yi .mbr-section-title {
   color: #ff3366;
+}
+.cid-rBf3ONu80Z {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #c1c1c1;
+}
+.cid-rBf3ONu80Z h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
+}
+.cid-rBf3ONu80Z p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+.cid-rBf3ONu80Z .mbr-section-btn {
+  padding-top: 2.5rem;
+}
+.cid-rBf3ONu80Z .mbr-section-btn a {
+  margin: 0;
+}
+.cid-rBf3ONu80Z .mbr-text {
+  color: #767676;
+}
+.cid-rBf3ONu80Z .card-wrapper {
+  height: 100%;
+}
+@media (max-width: 767px) {
+  .cid-rBf3ONu80Z .card:not(.last-child) {
+    padding-bottom: 2rem;
+  }
+}
+.cid-rBf3ONu80Z H2 {
+  text-align: center;
+  color: #cc2952;
+}
+.cid-rBf3ONu80Z .mbr-text,
+.cid-rBf3ONu80Z .mbr-section-btn {
+  text-align: center;
 }
 .cid-r6A9jLMFQ3 {
   padding-top: 30px;
