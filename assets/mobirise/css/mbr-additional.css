@@ -1569,7 +1569,7 @@ body {
 .cid-rBf3ONu80Z {
   padding-top: 45px;
   padding-bottom: 15px;
-  background-color: #cccccc;
+  background-color: #f9f295;
 }
 .cid-rBf3ONu80Z h4 {
   font-weight: 500;
@@ -1605,6 +1605,9 @@ body {
 }
 .cid-rBf3ONu80Z .mbr-text,
 .cid-rBf3ONu80Z .mbr-section-btn {
+  text-align: center;
+}
+.cid-rBf3ONu80Z .card-title {
   text-align: center;
 }
 .cid-r6A9jLMFQ3 {
