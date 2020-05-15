@@ -1434,22 +1434,32 @@ body {
 .cid-r7rKzgobv2 .mbr-text {
   color: #232323;
 }
-.cid-r5shQx32Mb {
-  background-image: url("../../../assets/images/tetonsvalleyfloor2-2-2000x1125.jpg");
+.cid-rZ5NNsWxxI {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #149dcc;
+  background: linear-gradient(45deg, #149dcc, #232323);
 }
-.cid-r5shQx32Mb .mbr-text,
-.cid-r5shQx32Mb .mbr-section-btn {
-  color: #ff3366;
+.cid-rZ5NNsWxxI .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
 }
-.cid-r5shQx32Mb H1 {
-  color: #cc2952;
+@media (min-width: 992px) {
+  .cid-rZ5NNsWxxI .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
 }
-.cid-r5shQx32Mb .mbr-text,
-.cid-r5shQx32Mb .mbr-section-btn B {
-  color: #232323;
+@media (max-width: 991px) {
+  .cid-rZ5NNsWxxI .mbr-figure {
+    padding-bottom: 3rem;
+  }
 }
-.cid-r5shQx32Mb B {
-  color: #232323;
+@media (max-width: 767px) {
+  .cid-rZ5NNsWxxI .mbr-text {
+    text-align: center;
+  }
 }
 .cid-r7rDzmI9JG {
   padding-top: 15px;
@@ -1569,7 +1579,7 @@ body {
 .cid-rBf3ONu80Z {
   padding-top: 45px;
   padding-bottom: 15px;
-  background-color: #f9f295;
+  background-color: #b2ccd2;
 }
 .cid-rBf3ONu80Z h4 {
   font-weight: 500;
@@ -1606,13 +1616,14 @@ body {
 .cid-rBf3ONu80Z .mbr-text,
 .cid-rBf3ONu80Z .mbr-section-btn {
   text-align: center;
+  color: #232323;
 }
 .cid-rBf3ONu80Z .card-title {
   text-align: center;
 }
 .cid-rZ0EqlGouf {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 45px;
+  padding-bottom: 0px;
   background-color: #40d144;
 }
 .cid-rZ0EqlGouf .title {
@@ -1645,8 +1656,8 @@ body {
 .cid-r6A9jLMFQ3 {
   padding-top: 30px;
   padding-bottom: 90px;
-  background-color: #ffffff;
-  background: linear-gradient(45deg, #ffffff, #b2ccd2);
+  background-color: #f9f295;
+  background: linear-gradient(45deg, #f9f295, #f9f295);
 }
 @media (min-width: 992px) {
   .cid-r6A9jLMFQ3 .mbr-figure {
