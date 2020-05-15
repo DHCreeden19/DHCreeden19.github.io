@@ -1414,7 +1414,7 @@ body {
   box-shadow: none !important;
 }
 .cid-r7rIEJzLIi {
-  background-image: url("../../../assets/images/goode1-2-2000x1274.jpg");
+  background-image: url("../../../assets/images/goodev1-2000x1500.jpg");
 }
 .cid-r7rIEJzLIi H1 {
   color: #cc2952;
@@ -1439,7 +1439,7 @@ body {
 }
 .cid-r5shQx32Mb .mbr-text,
 .cid-r5shQx32Mb .mbr-section-btn {
-  color: #0b9521;
+  color: #ff3366;
 }
 .cid-r5shQx32Mb H1 {
   color: #cc2952;
@@ -1610,6 +1610,38 @@ body {
 .cid-rBf3ONu80Z .card-title {
   text-align: center;
 }
+.cid-rZ0EqlGouf {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #40d144;
+}
+.cid-rZ0EqlGouf .title {
+  padding-bottom: 2.5rem;
+}
+.cid-rZ0EqlGouf .mbr-text {
+  color: #767676;
+  margin: 0;
+  padding-top: 0.5rem;
+}
+.cid-rZ0EqlGouf .wrapper {
+  display: flex;
+  padding: 1rem 0;
+}
+.cid-rZ0EqlGouf .wrapper .b-info {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .cid-rZ0EqlGouf .iconfont-wrapper {
+    display: none;
+  }
+}
+.cid-rZ0EqlGouf H2 {
+  text-align: center;
+  color: #cc2952;
+}
+.cid-rZ0EqlGouf H5 {
+  text-align: center;
+}
 .cid-r6A9jLMFQ3 {
   padding-top: 30px;
   padding-bottom: 90px;
@@ -1732,7 +1764,7 @@ body {
 .cid-r5Dkr2NeCI {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/dsc01770-2000x1421.jpg");
+  background-image: url("../../../assets/images/dsc01794-r1-2000x1302.jpg");
 }
 .cid-r5Dkr2NeCI .mbr-iconfont-social {
   font-size: 32px;
